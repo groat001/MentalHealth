@@ -1,0 +1,188 @@
+
+.sec2 {
+  width: 1237px;
+  height: 1400px;
+  position: absolute;
+  top: 1750px;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.warning {
+  width: 1237px;
+  height: 300px;
+  background-color: #5c090f;
+  position: relative;
+  bottom: 50px;
+  overflow: hidden;
+}
+
+.imgwarn  {
+  background-image: url("../images/warning.png");
+  height: 205px;
+  width: 205px;
+  transform: scale(.7);
+  position: relative;
+  top: 37px;
+  left: 95px;
+  opacity: 92%;
+  animation: warn 5s linear;
+  z-index: 5;
+  transition: 1s;
+}
+
+.imgwarn:hover{
+  transform: scale(.8);
+  transition: 1s;
+}
+
+.aniwarn  {
+  width: 136px;
+  height: 136px;
+  border-radius: 100%;
+  background-color: transparent;
+  position: absolute;
+  left: 131px;
+  top: 71px;
+  box-shadow: 0px 0px 20px red;
+}
+
+.warntext {
+  color: red;
+  font-family: "revol";
+  font-size: 46px;
+  width: 850px;
+  position: relative;
+  left: 275px;
+  text-align: center;
+  bottom: 195px;
+  animation: warntext2 20s infinite;
+}
+
+.highlight  {
+  color: white;
+  text-shadow: 0px 0px 15px red;
+  transition: .5s;
+}
+
+.highlight:hover  {
+  color: #5c090f;
+  transition: .5s;
+}
+
+@keyframes warn {
+  0%  {position:relative; left:2000px; transform: rotate(0deg) scale(.7);}
+  100%  {position:relative; left:115px; transform: rotate(-360deg) scale(.7);}
+}
+
+@keyframes warntext2  {
+  0%  {transform: scale(.95);}
+  50%  {transform: scale(.9);}
+  100%  {transform: scale(.95);}
+}
+
+
+.subsec1  {
+  width: 60%;
+  height: 200px;
+  position: relative;
+  top: 20px;
+  background: linear-gradient(#251F20,#0E1418);
+  border-radius: 0 25px 25px 0;
+}
+
+
+
+.sectitle {
+  color: #CEC6B3;
+  font-family: "Nuvel";
+  font-size: 80px;
+  padding: 10px 30px 0 0;
+  width: 100%;
+  height: 180px;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+
+.parbox1 {
+  width: 80%;
+  height: 150px;
+  position: relative;
+  top: 20px;
+  background-color: #3E201E;
+  border-radius: 0 25px 25px 0;
+  color: white;
+  padding: 30px 30px 0 0;
+  padding-left: 70px;
+  padding-right: 50px;
+  font-family: "montserrat";
+  font-size: 30px;
+}
+
+p {
+  font-family: "montserrat";
+  font-size: 28px;
+}
+
+.parbox2  {
+  margin: 40px 90px;
+  width: 500px;
+  height: 580px;
+  background-color: #75433b;
+  border: 6px solid #322f31;
+  border-radius: 50px 0 50px 0;
+  position: relative;
+  left: 500px;
+  top: 20px;
+}
+
+.othertext  {
+  font-family: "montserrat";
+  font-size: 24px;
+  color: white;
+  padding-left: 50px;
+  padding-top: 18px;
+  padding-right: 12px;
+  letter-spacing: 3px;
+  line-height: 30px;
+  width: 430px;
+}
+
+.mirror {
+  background-image: url("../images/mirror.png");
+  width:225px;
+  height: 480px;
+  position: relative;
+  bottom: 530px;
+  left: 220px;
+  background-size: contain;
+  transform: scale(1.7, 1.2);
+}
+
+.listone {
+  font-family: "montalt";
+  line-height: 30px;
+  font-size: 32px;
+  padding-right: 20px;
+  transform: scale(.9);
+  font-weight: thin;
+  width: 300px;
+}
+
+.movelists {
+  position: relative;
+  bottom: 1050px;
+  left: 170px;
+}
+
+.montsemi {
+  font-family: "montsemi";
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotate(1turn);
+	}
+}

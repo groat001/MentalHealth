@@ -1,0 +1,34 @@
+
+                          /*SecTION 2*/
+
+@keyframes reveal {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.reveal00 {
+  animation: reveal 5s 1;
+}
+
+
+@keyframes wipe-enter {
+  from {width: 0;}
+  to {width: 60%;}
+  }
+
+.subtitlehid  {
+  overflow: hidden;
+}
+
+.revealanimation{
+    animation: wipe-enter 3s linear;
+}
+
+.bordershow{
+  transition: 1s;
+}
+
+.bordershow:hover{
+  border: white 6px solid;
+  transition: 2s;
+}

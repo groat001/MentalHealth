@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Nuvel";
+    src: url("../fonts/Nuvel/Nuvel.ttf");
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("../fonts/montserrat/Montserrat-Regular.otf");
+}
+
+@font-face {
+    font-family: "exo";
+    src: url("../fonts/Exo2/Exo2-Regular.otf");
+}
+
+@font-face {
+    font-family: "montalt";
+    src: url("../fonts/montserrat_alternate/MontserratAlternates-Regular.otf");
+}
+
+@font-face {
+  font-family: "montaltb";
+  src: url("../fonts/montserrat_alternate/MontserratAlternates-ExtraBold.otf")
+}
+
+@font-face {
+  font-family: "montaltsem";
+  src: url("../fonts/montserrat_alternate/MontserratAlternates-Semibold.otf");
+}
+
+
+@font-face {
+    font-family: "clip";
+    src:url("../fonts/Clip.ttf");
+}
+
+@font-face {
+    font-family: "revol";
+    src: url("../fonts/REVOLUTION.ttf");
+}
+
+@font-face {
+  font-family: "montbold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf");
+}
+
+@font-face {
+    font-family: "montsemi";
+    src: url("../fonts/montserrat/Montserrat-SemiBold.otf");
+}

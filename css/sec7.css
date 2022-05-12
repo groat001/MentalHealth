@@ -1,0 +1,237 @@
+.sec7 {
+  width: 1237px;
+  height: 700px;
+  position: absolute;
+  top: 6500px;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.sec7back {
+  width: 1237px;
+  height: 700px;
+  position: absolute;
+  top: 6480px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-size: 300%, 300%;
+  background: linear-gradient(-187deg, #312221, #746945, #A1A587, #C0C8A8);
+  mix-blend-mode: darken;
+  animation: shift2 5s infinite;
+}
+
+@keyframes shift2 {
+  0% {background-position: 50% 200%;}
+  100% {background-position: -50% -200%;}
+}
+
+.parbox7  {
+  width: 900px;
+  height: 200px;
+  background-color: #58595B;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  font-family: "montalt";
+  padding: 15px;
+  padding-left: 25px;
+  font-size: 24px;
+  line-height: 40px;
+  border-radius: 0 25px 0 25px;
+  color:white;
+}
+
+.parbox8  {
+  width: 900px;
+  height: 160px;
+  background-color: #414042;
+  position: relative;
+  top: 180px;
+  left: 220px;
+  font-family: "montalt";
+  padding: 15px;
+  padding-left: 25px;
+  font-size: 24px;
+  line-height: 40px;
+  border-radius: 25px 0 25px 0;
+  color:white;
+}
+
+.montaltbolded {
+  font-family: "montaltb";
+}
+
+.montaltsemibolded {
+  font-family: "montaltsem";
+  font-style: italic;
+}
+
+
+                          /*SECTION 8*/
+
+.sec8 {
+  width: 1237px;
+  height: 578px;
+  position: absolute;
+  top: 7120px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  overflow: hidden;
+}
+
+.parbox9  {
+  background-color: #4D5434;
+  width: 600px;
+  height: 580px;
+  position: relative;
+  left: 637px;
+  box-shadow: black -5px 0px 20px;
+}
+
+.text5  {
+  font-family: "exo";
+  color: white;
+  font-size: 26px;
+  line-height: 32px;
+  padding: 25px;
+  letter-spacing: 2px;
+}
+
+.subtitle5  {
+  width: 450px;
+  height: 130px;
+  border: black 6px solid;
+  position: relative;
+  bottom: 160px;
+  left: 720px;
+  border-radius: 80px 80px 0 0;
+  background-color: #40442E;
+  box-shadow: #6F7C38 0px 0px 20px;
+  font-family: "Nuvel";
+  color: #DEE2C9;
+  font-size: 56px;
+  text-align: center;
+}
+
+                  /*pic section*/
+.sec9{
+    width: 637px;
+    height: 578px;
+    position: relative;
+    left: 320px;
+    bottom: 432px;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+
+.Shd2  {
+  width: 1050px;
+  height: 1100px;
+  background-image: url("../images/head1.png");
+  position:absolute;
+  top: 50px;
+  left:50%;
+  transform: translate(-50%, -50%) scale(.7);
+  opacity: 0;
+  animation: head1 30s infinite;
+
+}
+.Shd3  {
+  width: 1050px;
+  height: 1080px;
+  background-image: url("../images/head2.png");
+  position:absolute;
+  top: 50px;
+  left:50%;
+  transform: translate(-50%, -50%) scale(.67);
+  opacity: 0;
+  animation: head2 30s infinite;
+}
+
+.Shd4  {
+  width: 1050px;
+  height: 1080px;
+  background-image: url("../images/head3.png");
+  position:absolute;
+  top: 50px;
+  left:50%;
+  transform: translate(-50%, -50%) scale(.67);
+  opacity: 0;
+  animation: head3 30s infinite;
+}
+
+.Shd5  {
+  width: 1050px;
+  height: 1100px;
+  background-image: url("../images/head4.png");
+  position:absolute;
+  top: 50px;
+  left:50%;
+  transform: translate(-50%, -50%) scale(.7);
+  opacity: 0;
+  animation: head4 30s infinite;
+}
+.Shd6  {
+  width: 1050px;
+  height: 1100px;
+  background-image: url("../images/head5.png");
+  position:absolute;
+  top: 50px;
+  left:50%;
+  transform: translate(-50%, -50%) scale(.7);
+  opacity: 0;
+  animation: head5 30s infinite;
+}
+
+.bar {
+  background-color: #590007;
+  width:638px;
+  height: 100px;
+  position: absolute;
+  bottom: 240px;
+}
+
+.subtitle6 {
+  font-family: "Nuvel";
+  font-size: 46px;
+  text-align: center;
+  padding-top: 22px;
+}
+
+.shadow2  {
+  color: transparent;
+  text-shadow: 2px 2px 15px #FFF3D0;
+}
+
+.text6  {
+  color: #4C353D;
+  text-shadow: 2px 2px 5px #FFF3D0;
+  position: relative;
+  bottom: 70px;
+  cursor:pointer;
+  opacity: 0;
+  z-index: 6;
+  transition: 3s;
+}
+
+.text6:hover  {
+  opacity:1;
+    transition: 3s;
+}
+
+                    /*BOTTOM*/
+
+.bar2 {
+  background-color: transparent;
+  background-size: 150% 150%;
+  width: 1236px;
+  height: 100px;
+  position: absolute;
+  top:  7500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+
+}
